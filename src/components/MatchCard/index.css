@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.img-opp-logo {
+  width: 60px;
+  height: 80px;
+  align-self: center;
+  margin-top: 3px;
+}
+.comp-team-head {
+  color: white;
+  font-size: 12px;
+  font-family: Bree Serif;
+}
+.comp-team-para {
+  color: white;
+  font-size: 10px;
+  font-family: Bree Serif;
+}
+.team-container {
+  background-color: #0f172a;
+  padding: 15px;
+  margin: 6px;
+  text-align: center;
+  width: 150px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+.red-style {
+  color: red;
+  font-size: 10px;
+}
+.green-style {
+  color: green;
+  font-size: 10px;
+}
+@media (min-width: 768px) {
+  .img-opp-logo {
+    width: 80px;
+    height: 100px;
+    align-self: center;
+    margin-top: 3px;
+  }
+  .comp-team-head {
+    color: white;
+    font-size: 17px;
+    font-family: Bree Serif;
+  }
+  .comp-team-para {
+    color: white;
+    font-size: 12px;
+    font-family: Bree Serif;
+  }
+  .team-container {
+    background-color: #0f172a;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 200px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .red-style {
+    color: red;
+    font-size: 15px;
+  }
+  .green-style {
+    color: green;
+    font-size: 15px;
+  }
+}
